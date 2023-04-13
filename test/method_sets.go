@@ -1,3 +1,4 @@
+// go test time_test.go  -v
 package main
 
 import (

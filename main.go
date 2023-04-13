@@ -9,8 +9,8 @@ import (
 	"path/filepath"
 	"time"
 
-	"examples.com/projects/handlers"
-	"examples.com/projects/middleware"
+	"github.com/ssooffiiaannee/net_projects_go/handlers"
+	"github.com/ssooffiiaannee/net_projects_go/middleware"
 )
 
 var (

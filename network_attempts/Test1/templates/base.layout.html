@@ -1,0 +1,23 @@
+{{define "base"}}
+    <!doctype html>
+
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viemport">
+            <title>Document</title>
+            {{block "css" .}}
+
+            {{end}}
+        </head>
+        <body>
+            <h1>This is it</h1>
+            
+            {{block "content" .}}
+            {{end}}
+
+            {{block "js" .}}
+            {{end}}
+        </body>
+    </html>
+{{end}}
